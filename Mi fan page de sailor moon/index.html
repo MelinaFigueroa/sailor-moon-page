@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailor Moon HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidas a mi Fan page sobre Sailor Moon</h1>
+    </header>   
+    <section>
+        <h2>Etiqueta &lt;h1&gt;</h2>
+        <p>La etiqueta &lt;h1&gt; se utiliza para definir el encabezado principal de una página web. Es el título más
+            importante y usualmente se muestra con un tamaño de fuente grande y en negrita.</p>
+    </section>
+
+    <section>
+        <h2>Etiqueta &lt;h2&gt;</h2>
+        <p>La etiqueta &lt;h2&gt; se utiliza para definir un encabezado de segundo nivel. Es útil para subdividir
+            secciones importantes dentro de una página web.</p>
+    </section>
+
+    <section>
+        <h2>Etiqueta &lt;p&gt;</h2>
+        <p>La etiqueta &lt;p&gt; se utiliza para definir un párrafo de texto en HTML. Es una forma de estructurar y
+            organizar el contenido textual de una página web.</p>
+    </section>
+
+    <section>
+        <h2>Etiqueta &lt;img&gt;</h2>
+        <p>La etiqueta &lt;img&gt; se utiliza para insertar imágenes en una página web. Es importante incluir el
+            atributo "src" con la ruta de la imagen y el atributo "alt" con una descripción de la imagen.</p>
+        <img src="./imagenes/sailor-moon.avif" alt="Sailor Moon">
+    </section>
+
+    <section>
+        <h2>Etiqueta &lt;ol&gt;</h2>
+        <p>La etiqueta &lt;ol&gt; se utiliza para crear listas ordenadas, donde cada ítem está numerado.</p>
+        <ol>
+            <li>Mercurio</li>
+            <li>Venus</li>
+            <li>Tierra</li>
+            <li>Marte</li>
+            <li>Júpiter</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Etiqueta &lt;ul&gt;</h2>
+        <p>La etiqueta &lt;ul&gt; se utiliza para crear listas desordenadas, donde los ítems no están numerados.</p>
+        <ul>
+            <li>Usagi Tsukino (Sailor Moon)</li>
+            <li>Ami Mizuno (Sailor Mercury)</li>
+            <li>Rei Hino (Sailor Mars)</li>
+            <li>Makoto Kino (Sailor Jupiter)</li>
+            <li>Minako Aino (Sailor Venus)</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Enlaces</h2>
+        <p>Utiliza la etiqueta &lt;a&gt; para crear enlaces a otras páginas web:</p>
+        <a href="https://sailormoon.fandom.com/es/wiki/Sailor_Moon_Wiki" target="_blank" rel="noopener">Sailor Moon Wiki</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=5qQ_jFWq_7k" target="_blank" rel="noopener">Transformación de Sailor Moon</a>
+    </section>
+    <section>
+        <h2>Tabla de Personajes</h2>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Función</th>
+            </tr>
+            <tr>
+                <td>Usagi Tsukino</td>
+                <td>Sailor Moon</td>
+            </tr>
+            <tr>
+                <td>Ami Mizuno</td>
+                <td>Sailor Mercury</td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+        </table>
+    </section>
+    <section>
+        <h2>Formulario de Comentarios</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section>
+        <h2>Clip de Audio</h2>
+        <audio controls>
+            <source src="./audios/opennig.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    
+    <section>
+        <h2>Clip de Vídeo</h2>
+        <video controls width="500">
+            <source src="./videos/transformacion.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+</body>
+<footer>
+    <p>© 2024 Sailor Moon Fan Club</p>
+</footer>
+
+</html>
